@@ -1,0 +1,26 @@
+# Private runtime and credentials
+.env
+.env.*
+!.env.example
+data/
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+node_modules/
+coverage/
+
+# Original vendor artifacts and private network evidence are not redistributable source
+reference/
+*.apk
+*.xapk
+*.aab
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.pcap
+*.pcapng
+screenshots/
+.DS_Store
+Thumbs.db

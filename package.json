@@ -1,0 +1,22 @@
+{
+  "name": "e-connect",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local-first router and connected-device dashboard for supported ZLT/Tozed routers.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kipko3ch/e-connect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kipko3ch/e-connect/issues"
+  },
+  "homepage": "https://github.com/kipko3ch/e-connect#readme",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
